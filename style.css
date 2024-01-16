@@ -36,6 +36,11 @@ h1 {
     filter: grayscale(100%);
 }
 
+#selfie:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px white;
+}
 
-
-
+del {
+    color: bisque;
+}
