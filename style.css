@@ -1,0 +1,41 @@
+body {
+    background: #222222;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.accent{
+    background: #5632CF;
+    background: linear-gradient(to right, #5632CF 0%, #BB3ACF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+#hello {
+    font-weight: 900;
+}
+
+#selfie {
+    width: 25%;
+    height: 25%;
+    border: #999 7px solid;
+    border-radius: 100%;
+    filter: grayscale(100%);
+}
+
+
+
+
